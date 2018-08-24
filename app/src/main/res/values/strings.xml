@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Homework1</string>
+
+    <string name="hello_text">Hello, </string>
+    <string name="name_text">John Soto</string>
+    <string name="button_text">Say Hello</string>
+
 </resources>

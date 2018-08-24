@@ -6,9 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <LinearLayout
+        android:id="@+id/inner_layout"
+        android:layout_width="197dp"
+        android:layout_height="438dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="157dp"
+            android:layout_height="80dp"
+            android:text="@string/hello_text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_text"
+
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/name_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/button_text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+
+        />
+
 
 </LinearLayout>

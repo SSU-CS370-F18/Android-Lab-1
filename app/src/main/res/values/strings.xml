@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Homework1</string>
+    <string name="hello_text">Hello</string>
+    <string name="button_text">Say Hello</string>
+    <string name="name_text">Grant Fonseca</string>
+    <string name="value">Grant Fonseca</string>
 </resources>

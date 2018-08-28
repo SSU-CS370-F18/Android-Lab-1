@@ -24,15 +24,13 @@
             android:layout_height="wrap_content"
             android:text="@string/name_text"/>
 
+    </LinearLayout>
 
     <Button
         android:id="@+id/name_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_text"/>
-
-    </LinearLayout>
-
 
 
 </LinearLayout>

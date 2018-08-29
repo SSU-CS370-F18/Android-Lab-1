@@ -14,19 +14,23 @@
 
         <Button
             android:id="@+id/name_button"
-            android:layout_width="wrap_content"
+            android:layout_width="125dp"
             android:layout_height="wrap_content"
             android:text="@string/button_text" />
+
         <TextView
+            android:id="@+id/hello_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!" />
+            android:visibility="invisible"
+            android:text="@string/hello_text" />
 
         <TextView
             android:id="@+id/name_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/hello_text" />
+            android:visibility="invisible"
+            android:text="@string/name_text" />
 
 
     </LinearLayout>

@@ -16,10 +16,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         nameText = (TextView)findViewById(R.id.name_text);
-        nameButton - (Button)findViewById(R.id.name_button);
-        nameButton.setOnClickListener(new View.OnClickListener()){
+        nameButton = (Button)findViewById(R.id.name_button);
+        nameButton.setOnClickListener(new View.OnClickListener(){
             @Override
                     public void onClick(View v){
-        };
+                nameText.setText(R.string.name_Text);
+
+            }
+        });
     }
 }

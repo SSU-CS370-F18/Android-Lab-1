@@ -12,26 +12,20 @@ public class MainActivity extends AppCompatActivity {
     private TextView nameText;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        nameText = (TextView)findViewByID(R.id.name_text);
-        nameButton = (Button)findViewById(R.id.name_button);
+        nameText = (TextView) findViewById(R.id.name_text);
+        nameButton = (Button) findViewById(R.id.name_button);
 
-        nameButton.setOnClickListener(new View.OnClickListener()){
+        nameButton.setOnClickListener(new View.OnClickListener() {
             @Override
-                    public void onClick(View v){
-                        MainActivity.this.nameText.setText(R.string.name_text);
+            public void onClick(View v) {
+                MainActivity.this.nameText.setText(R.string.name_text);
             }
-        }
-    };
+        });
 
-
-
-
-
+    }
 }

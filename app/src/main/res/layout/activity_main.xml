@@ -10,24 +10,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/inner_layout"
-        android:orientation="horizontal">
-        <LinearLayout
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_text" />
+
+        <Button
             android:id="@+id/name_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:orientation="horizontal"
             android:text="@string/button_text">
 
+            <TextView
+                android:id="@+id/name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name_text"/>
+        </Button>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="hello_text" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/name_text"/>
-
-        </LinearLayout>
 
     </LinearLayout>
 

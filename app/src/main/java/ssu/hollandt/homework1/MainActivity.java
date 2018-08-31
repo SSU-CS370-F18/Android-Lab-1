@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         nameButton.setOnClickListener(new View.OnClickListener(){
             @Override
                     public void onClick(View v){
-                nameText.setText(R.string.name_Text);
+                nameText.setText(R.string.name_text);
 
             }
         });

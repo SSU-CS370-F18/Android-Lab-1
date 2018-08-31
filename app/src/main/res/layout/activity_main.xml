@@ -8,31 +8,31 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:orientation="horizontal"
-        android:id= "@+id/inner_layout"
+        android:id="@+id/inner_layout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-        
+
         <TextView
-            android:text="@string/hello_text"
+            android:id="@string/hello_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!" />
+            android:text="Hello, " />
 
-            <TextView
-                android:id="@+id/name_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content" />
 
 
     </LinearLayout>
 
     <Button
-        android:text="@string/button_text"
+        android:id="@+id/name_button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/name_button"/>
+        android:layout_height="58dp"
+        android:text="@string/button_text" />
 
 
 </LinearLayout>

@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         nameButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                MainActivity.this.nameText.setText(R.string.name_text);
+                nameText.setText(R.string.name_text);
 
             }
         });
